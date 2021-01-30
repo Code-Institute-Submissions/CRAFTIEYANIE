@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+/*--------------------------------------------Colors*/
+.yan-color{
+    color: #00b3b3;
+    font-family: "Dancing Script", sans-serif;
+    
+}
+.logo{
+    color: blueviolet;
+}
+/*--------------------------------------------Heading*/
+header {
+    margin: 0;
+}
+
+.heading {
+    padding-left: 50px;
+}
+
+.logo {
+   
+    font-family: "Sofia", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 65px;
+}
+.nav-container{
+    padding-bottom: 10px;
+}
+
+/*--------------------------------------------General*/
+
+.inline-block {
+    display: inline-block;
+}
+.general-sub {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+}
+/*--------------------------------------------Home content*/
+.title{
+    text-align: center;
+     font-family: "Dancing Script", sans-serif;
+      color: blueviolet;
+      margin-bottom: 100px;
+}
+
+
+.content-section{
+    margin: 50px 0 100px;
+
+}
+
+.main-image{
+  
+    max-width: 600px;
+    max-height: 600px;
+
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    position: relative;
+  
+
+
+}
+/*--------------------------------------------Nav*/
+
+.menuitem {
+    height: 20px;
+    text-align:center;
+    padding: 0;
+   line-height: 100px;
+    font-size: 24px;
+}
+
+.menuitem a {
+    width: 80%;
+    text-decoration: none;
+    height: 20px;
+    padding-left: 20px;
+}
+/* ----------------------------------------Footer */
+
+footer {
+     background-color:#00b3b3;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+.centro{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+ 
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #5233ff;
+}
+.textdetails{
+text-align: center;
+}
+
+#footer-details {
+    padding: 30px;
+}
