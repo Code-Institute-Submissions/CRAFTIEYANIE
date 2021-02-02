@@ -138,6 +138,7 @@ text-align: center;
 
 .products{
 text-align: center;
+margin-bottom: 40px;
 }
 
 .secondary-image{
@@ -178,7 +179,54 @@ text-align: center;
 .triplepage-sub {
     text-align: center;
     padding-top: 10px;
-    font-family: "Exo", sans-serif;
+    font-family: "Sofia", sans-serif;
     font-weight: 400;
-     color:#00b3b3;
+    color:#00b3b3;
+}
+
+
+/* ----------------------------------------Contact */
+
+.contact-heading{
+
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+.text-center{
+     font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.center-form{
+
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+
+.spacing{
+    margin: 40px auto 40px;
+}
+
+button[type="submit"] {
+    
+    margin-bottom: 20px;
+    color: #fafafa;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: blueviolet;;
+}
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
