@@ -27,6 +27,11 @@ header {
 
 
 /*--------------------------------------------General*/
+.size70{
+    max-width: 70%;
+    text-align: center;
+    margin: 10px auto;
+}
 
 .general-sub {
     text-align: center;
@@ -36,6 +41,18 @@ header {
      color: blueviolet;
 }
 /*--------------------------------------------Home content*/
+.main-text{
+    max-width: 90%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+
+::marker{
+    color:transparent;
+}
+
+
 .title{
     font-size: 80px;
     text-align: center;
@@ -45,8 +62,9 @@ header {
 }
 hr{
     border-top: 1px solid  #00b3b3;
-    width: 100%;
-    margin: 5px 0;
+    width: 60%;
+    margin: 5px auto;
+   
 }
     
 
@@ -170,11 +188,7 @@ margin-bottom: 40px;
     display: block;   
 }
 
-.size70{
-    max-width: 70%;
-    text-align: center;
-    margin: 10px auto;
-}
+
 
 .triplepage-sub {
     text-align: center;
@@ -229,4 +243,13 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+ .space{
+    margin: 20px auto 20px; 
+    min-height: 205px;
+ }
+
+ .title-spacing{
+margin-top: 40px;
+ }
+
 }
