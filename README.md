@@ -131,6 +131,7 @@ The website's code passed both W3C HTML5 test and CSS3 test.
 ## Known Bugs
 
     1-In Chrome, on the home page, when pressing the content headings a black margin shows up.
+    Simply changed border color to transparent.
 
     2-Dropdown button on nav was not working as it wouldnt open. Added in this order:
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
