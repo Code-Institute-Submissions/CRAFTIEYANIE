@@ -27,6 +27,10 @@ header {
 
 
 /*--------------------------------------------General*/
+body{
+     font-family: "Roboto", sans-serif;
+}
+
 .size70{
     max-width: 70%;
     text-align: center;
@@ -46,6 +50,7 @@ header {
     text-align: justify;
     margin: 10px auto;
 }
+
 
 summary::-webkit-details-marker{
      color:transparent;
@@ -74,6 +79,7 @@ hr{
 .heading{
      font-family: "Dancing Script", sans-serif;
      text-align: center;
+     border-color: transparent;
 }
 
 .content-section{
@@ -203,14 +209,14 @@ margin-bottom: 40px;
 
 .contact-heading{
 
-    font-family: "Exo", sans-serif;
+    
     font-weight: 300;
     margin-top: 50px;
     margin-bottom: 40px;
 
 }
 .text-center{
-     font-family: "Exo", sans-serif;
+     font-family: "Sofia", sans-serif;
     font-weight: 300;
     font-size: 30px;
 }
